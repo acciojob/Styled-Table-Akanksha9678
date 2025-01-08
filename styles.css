@@ -1,1 +1,14 @@
 /* your code */
+table,tr,th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+tr:nth-child(even){
+	background:mediumseagreen;
+}
+th{
+	background:gray;
+}
+tr:nth-child(odd){
+	background:yellow;
+}
